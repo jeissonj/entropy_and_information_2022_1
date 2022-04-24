@@ -33,5 +33,5 @@ for i in palabras_b:
 H_r=-sum(list(map(lambda x: x*math.log2(x),h_r)))
 H_b=-sum(list(map(lambda x: x*math.log2(x),h_b)))
 delta_H = H_r - H_b
-print("El contenido de información de Shannon (ci) en la canción en bits de This is Not America de residente es de ",H_r," mientras que el ci de morado de J Balbin es ",H_b)
+print("El contenido de información de Shannon (ci) en bits en la canción de This is Not America de residente es de ",H_r," mientras que el ci de morado de J Balbin es ",H_b)
 print("Por cual se puede afrimar que This is Not America tiene ",delta_H, "mas bits de información que morado")
